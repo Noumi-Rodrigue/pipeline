@@ -5,4 +5,4 @@ RUN apt-get install -pip
 RUN pip install --updradre pip
 RUN git clone git@github.com:Noumi-Rodrigue/TP_pipeline.git
 WORKDIR /TP_pipeline
-CMD java 
+CMD .jar
